@@ -95,4 +95,4 @@ for i in range(0,len(lats)):
     ax.set_title("Sismo y Réplicas. Mesetas - Meta (24 y 25 de Diciembre)\n MAGNITUD: %2.1f\n HORA (UTC): %s"%(float(mags[i]), str(fechas[i])))
 
     plt.legend()
-    plt.savefig("imgs/anima"+str(i)+".png")
+    plt.savefig("anima"+str(i)+".png")
