@@ -96,3 +96,4 @@ for i in range(0,len(lats)):
 
     plt.legend()
     plt.savefig("imgs/anima"+str(i)+".png")
+# cambio al codigo
